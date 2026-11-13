@@ -23,7 +23,7 @@ EOT
         contains(["latest", "id", "tag"], v.retrieve_by)
       )
     ])
-    error_message = "must be one of: latest, id, tag"
+    error_message = "must be one of: \"latest\", \"id\", \"tag\""
   }
 }
 
